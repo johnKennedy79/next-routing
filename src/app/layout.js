@@ -12,13 +12,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header>header</header>
+        <header>
+          <h1>Header in layout</h1>
+        </header>
         <nav>
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
+          <Link href="/posts">Posts</Link>
         </nav>
         {children}
-        <footer>footer</footer>
+        <footer>Footer in layout </footer>
       </body>
     </html>
   );
