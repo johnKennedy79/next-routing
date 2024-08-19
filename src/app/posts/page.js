@@ -6,6 +6,7 @@ export default function Posts() {
       <Link href="/posts/1">Post 1</Link>
       <Link href="/posts/2">Post 2</Link>
       <Link href="/posts/3">Post 3</Link>
+      <h1>All posts</h1>
     </main>
   );
 }

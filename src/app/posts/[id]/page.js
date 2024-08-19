@@ -13,6 +13,7 @@ export default function DynamicPosts({ params }) {
       <Link href="/posts/[params.id]/30" as={`/posts/${params.id}/30`}>
         Comment 30
       </Link>
+      <h1>Post identified as post/ and the link selected are here...</h1>
     </main>
   );
 }
